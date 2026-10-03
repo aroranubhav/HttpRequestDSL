@@ -1,6 +1,6 @@
 package com.maxi.httprequestdsl
 
-public class HttpRequestBuilder {
+public class HttpRequestBuilder internal constructor() {
 
     public var method: HttpMethod = HttpMethod.GET
     public var url: String = ""
